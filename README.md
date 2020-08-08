@@ -3,4 +3,7 @@
 just a demo app to learn Python :)
 
 # execute
-`python3 find_meteors.py`
+```
+pipenv install
+pipenv run "python find_meteors.py"
+```
