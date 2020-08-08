@@ -17,6 +17,8 @@ def calc_dist(lat1, lon1, lat2, lon2):
 def get_dist(meteor):
     return meteor.get('distance', math.inf)
     
+# block that only runs when called as a script.
+# but will not run when file is imported.
 if __name__ == '__main__':
     my_loc = (29.424122, -98.493628)
 
